@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: -8px;
+            padding: 2px;
+        }
+        header {
+            background-color: white;  
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        nav {
+            background-color: rgb(161, 135, 135);
+            padding: 3px;
+            box-shadow: 1px 1px 3px black; /* box-shadow: vertical horizontal fundo */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        article{
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+        article > aside {
+            background-color: rgb(108, 112, 108);
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.425);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: -6px;
+            margin-right: 9px;
+            margin-left: 9px;
+            border-radius: 7px;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        
+        <nav>
+            <a href="">Links</a>
+            <a href="">Links</a>
+            <a href="">Links</a>
+            <a href="">Links</a>
+        </nav>
+
+    </header>
+
+    <main> <!-- conteúdo principal-->
+        <section id="noticias">
+
+        </section>
+        <section id="assuntos">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque possimus minima, commodi eveniet laborum sed rerum ratione! Repellendus eligendi, quas velit culpa, esse fugiat eum saepe eaque ipsum facere blanditiis!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer> <!---->
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>
+

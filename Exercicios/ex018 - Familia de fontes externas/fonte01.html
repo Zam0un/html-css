@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'Child' ;
+            src: url('Baby Child.otf') format('opentype'), url('Baby Child.ttf') format('truetype');
+            
+        }
+        /* Tipos de format():
+            - opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat(apple advanced typography)
+            - svg
+        */
+        body {
+            font-family: 'Child', Times, serif;
+        }
+        h1 {
+            font-family: 'Child', Helvetica, sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolores sequi adipisci, est eligendi tempore aliquam explicabo incidunt cupiditate natus quos exercitationem similique, nostrum sunt, ut veritatis aspernatur esse? Perspiciatis.</p>
+    
+    
+</body>
+</html>

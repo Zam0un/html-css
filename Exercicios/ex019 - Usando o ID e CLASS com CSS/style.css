@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*
+Tudo que em HTML for id em CSS vira #
+Tudo que em HTML for class em CSS vira .
+*/
+
+/*
+Usa-se class para por estilo em mais de um item.
+*/
+body {
+    background-color: rgb(171, 230, 171);
+}
+h1 {
+    color: rgb(211, 108, 108);
+}
+#principal {
+    text-align: center;
+    background-color: black;
+}
+h2 {
+    color: rgb(106, 106, 168);
+}
+#principal1 {
+    text-align: right;
+    background-color: blue;
+    font: italic bold 1em arial;
+}
+.basico {
+    color: green;
+}
+.intermediario {
+    color: blue;
+}
+.avancado {
+    color: red;
+}
+.destaque {
+    background-color: rgba(155, 155, 101, 0.452);
+}
